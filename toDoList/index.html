@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="todo-heading">
+        <h2>Todo List</h2>
+      </div>
+    </header>
+    <section class="main">
+      <div class="input">
+        <form>
+          <input type="text" id="input-text" placeholder="item" />
+          <button type="submit"></button>
+        </form>
+      </div>
+
+      <ul id="items" class="list-group">
+        <!-- <li class="list-group-item">
+         
+          <button type="button" id="edit" class ="pencil"></button>
+          <button type="button" id="delete" class="dustbin"></button>
+        </li> -->
+      </ul>
+
+      <h3 id = "empty-message" >Ooops! list is empty</h3>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
